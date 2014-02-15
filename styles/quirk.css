@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+.brandedtable {
+	font-family:Arial, Verdana, sans-serif, Myuen, Gulim;
+	font-size:.9em;
+	margin:20px 0;
+}
+.brandedtable td {
+	border-bottom:1px solid #00a1de;
+	padding:5px;
+	vertical-align:top;
+}
+
+.brandedtable thead td, .brandedtable th {
+	font-weight:bold;
+	color:#fff;
+	text-align:left;
+	background-color:#00a1de;
+	padding:5px;
+	vertical-align:top;
+}
+
+.floatright{
+	background-color:#fff;
+	padding:0;
+	margin:0 0 15px 15px;
+	float:right;
+	clear:both;
+}
+	
+.floatleft{
+	background-color:#fff;
+	padding:0 15px 15px 0;
+	float:left;
+	clear:left;
+}
+	
+.pressreleaseimage{
+	margin:0 15px 15px 0;
+	float:left;
+	clear:left;
+}
+.legaltext {
+	font-size:.72em
+}
+.smalltext{
+	font-size:.85em
+}
+.calloutquote{
+	font-family:"Times New Roman", Times, serif;
+	font-size:1.5em;
+	color:#00a1de;
+	margin-top:.5em;
+	margin-bottom:.25em;
+	margin-left:.5em;
+	text-indent:-0.5em;
+	border-top:solid 1px #00a1de;
+}
+	
+.calloutquoteattibution{
+	color:#00a1de;
+	margin-top:0;
+	margin-left:.55em;
+	text-indent:-0.55em;
+	margin-bottom:30px;
+}
+.outerthumbnail {
+	float:left;}
+	
+.storyimage{
+	padding:0;
+	margin:0 0 15px 15px;
+	float:right;
+	clear:right;
+}
+
+#utilityPage .storyimage{
+	height:165px;
+	margin-left:20px;
+	margin-top:40px;
+	width:220px;
+	position:relative;
+	margin-right:-29px;
+}
+
+#printerFriendly .storyimage{
+	margin-right:-1px;
+}
+.contentportlet{
+	width:auto!important;
+	padding-left:15px;
+}
+
+.contentPortlet ul{
+	list-style:none;
+	padding:10px 0 10px 0;
+	margin:0;
+}
+.contentportlet li{
+	clear:left;
+	font-size:.9em;
+	line-height:1.5;
+	margin-bottom:1em;
+}
+
+.contentportlet a{
+	text-decoration:none;
+}
+.featureListBodyPart{
+	clear:both;
+	float: none!important;
+}
+.featureListBodyPart ul li{
+	float: none!important;}
+#ecmTextBlockNoTitle{
+	clear:both;
+}
+#footer {
+position:absolute\9 !important;
+left:0px\9 !important;
+}
+#expandedFooter .footerTitle{
+margin-top: 11px;
+}
+/* Fix for leading images */
+.storyImageCaseStudy, img.eventLeadingImage{
+right: 0px!important;
+}
+table#articlestoryHeader td .tableHeaderFontControl{
+min-width:300px;
+}
+#utilityPage .featureListBodyPart{
+	width: 99%!important;}
+	
+label.overLabel{
+                left: -9999px;
+                position: absolute;}
+#ecmTextBlockRightPanel .floatLeft, #ecmTextBlockRightPanel .floatleft{
+	background-color: transparent!important;}

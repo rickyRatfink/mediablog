@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#FFFFFF;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10px;
+	color:#000000;
+}
+ 
+
+
+#header {
+	background:url(../images/theblaze_logo_2x.png) no-repeat #FFFFFF;
+	background-size: 188px 40px;
+	width:772px;
+	height:36px;
+	margin-left:360px;	
+	font-size:22px;
+	color:#c6c2c2;
+	padding-top: 12px;
+	padding-left:250px;
+	margin-top:4px;
+	font-family:"Bebas Neue";
+}
+
+#menulinks { 	
+	font-size:22px;
+	color:#c6c2c2;
+	font-family:"Bebas Neue";
+	text-decoration:none;
+	padding-right:16px;
+}
+
+#header_separator1 {
+	background:#F00;
+	width:960px;
+	height:2px;
+	margin-left:360px;
+	margin-bottom:2px;
+	margin-top:0px;
+}
+#slider {
+	margin-left:14px;
+}
+#header_middle {
+	background:#FFFFFF;
+	width:960px;
+	height:15px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:14px;
+	color:#b51004;
+	margin-left:360px;
+	padding-bottom:5px;
+}
+.social { float:right; padding-top:1px; }
+.datetime { background:#FFFFFF;	font-family:"Bebas Neue"; font-size:12px; color:#000000; float:right; padding-right:10px; padding-top:3px; }
+.headline_text1 { background:#252525; font-family:"ChunkFive Roman"; font-size:24px; color:#FFFFFF; float:left; padding-right:10px; padding-left:10px; padding-top:3px; }
+.headline_text2 { height:90px; background:#252525; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; padding-right:10px; padding-left:10px; overflow:hidden; }
+
+#header_middle_links {
+	background:#FFFFFF;
+	font-family:"Bebas Neue";
+	font-size:12px;
+	color:#4d4d4d;
+	padding-right:15px;
+}
+#full_story_link {
+	font-family:"Arial Black", Gadget, sans-serif
+	font-size:12px;
+	font-weight:bold;
+	color:#827e7e;
+	padding-left:20px;
+	float:right;
+}
+#full_story_link2 {
+	font-family:"Arial Black", Gadget, sans-serif
+	font-size:9px;
+	font-weight:bold;
+	color:#f00;
+	padding-left:20px;
+	float:right;
+}
+#worth_noting_href {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	padding-right:15px;
+	padding-left:0px;
+	line-height:180%;
+	text-decoration:none;
+}
+
+#header_separator2 {
+	background:#b1b1b1;
+	width:960px;
+	height:1px;
+	margin-left:360px;
+	margin-bottom:2px;
+	margin-top:0px;
+}
+
+#postheader {
+	background:#F00;
+	width:960px;
+	height:15px;
+	font-family:"SF Sports Night", "SF Sports Night Alternate", "SF Sports Night AltUpright", "SF Sports Night Upright";
+	font-size:10px;
+	color:#FFFFFF;
+	margin-left:360px;
+	margin-bottom:1px;
+}
+
+#headline_image {
+	position: relative; 
+	width:960px;
+	height:444px;
+	margin-bottom:0px; 
+    margin-left:360px;
+	padding-bottom:0px;
+}
+
+#image
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#headline_image_text
+{
+    z-index:100;
+    position:absolute;    
+    color:white;
+	font-family:"Arial Black", Gadget, sans-serif;
+    font-size:54px;
+    font-weight:bold;
+    left:50px;
+	width:200px;
+    top:-30px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	letter-spacing:-4px;
+	line-height:80%;
+}
+
+#headline {
+	background:#252525;
+	width:960px;
+	height:90px;
+	margin-bottom:0px; 
+    margin-left:360px;
+	padding-bottom:10px;
+}
+
+#states {
+	background:#000000;
+	width:955px;
+	height:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	margin-bottom:0px; 
+    margin-left:360px;
+	padding-bottom:7px;
+	padding-left:5px;
+}
+
+#worth {
+	background:#d2cfcf;
+	width:955px;
+	height:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	color:#4d4d4d;
+	margin-bottom:0px; 
+    margin-left:360px;
+	padding-bottom:7px;
+	padding-left:5px;
+	display:inline-block;
+}
+
+
+#login {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#24a3f0;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+#menu {
+	background:#353333;
+	width:500px;
+	height:40px;
+	font-size:22px;
+	color:#c6c2c2;
+	padding-top:7px;
+	padding-left:250px;
+	font-family:"Bebas Neue";
+}
+
+#story_area {
+	width:960px;
+	height:130px;
+	margin-left:360px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-top:0px;
+}
+
+#story_box {
+	width:150px;
+	height:174px;
+	border:1px solid #ababab;
+	box-shadow: 3px 3px 3px #666;
+	display:inline-block;
+	vertical-align:top;
+	overflow:hidden;
+}
+
+#worth_box {
+	background:#dedede;
+	width:450px;
+	height:630px;
+	border:1px solid #c8c6c6;
+	display:inline-block;
+	margin-left:360px;
+	margin-top:0px;
+	margin-bottom: 15px;
+	vertical-align:top;
+	padding-top:0px;
+}
+
+#worth_story {
+	  overflow:none;
+	  /* fallback */
+	  background-color: #1a82f7;
+	  background: url(images/linear_bg_2.png);
+	  background-repeat: repeat-x;
+	
+	  /* Safari 4-5, Chrome 1-9 */
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dbd8d8), to(#ffffff));
+	
+	  /* Safari 5.1, Chrome 10+ */
+	  background: -webkit-linear-gradient(top, #ffffff, #dbd8d8);
+	
+	  /* Firefox 3.6+ */
+	  background: -moz-linear-gradient(top, #ffffff, #dbd8d8);
+	
+	  /* IE 10 */
+	  background: -ms-linear-gradient(top, #ffffff, #dbd8d8);
+	
+	  /* Opera 11.10+ */
+	  background: -o-linear-gradient(top, #ffffff, #dbd8d8);
+	width:430px;
+	height: 18px;
+	border-bottom:1px solid #c8c6c6;
+	display:inline-block;
+	vertical-align:top;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#000000;
+	padding-right:15px;
+	padding-left:5px;
+}
+
+#contributors_box {
+	background:#ffffff;
+	width:332px;
+	display:inline-block;	
+	vertical-align:top;
+}
+#contributors_text1 {
+	width:270px;
+	background:#ffffff;
+	display:inline-block;	
+	vertical-align:top;
+	font-size:26px;
+	color:#000000;
+	letter-spacing:-2px;
+	
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#contributors_text2 {
+	width:270px;
+	background:#ffffff;
+	display:inline-block;	
+	vertical-align:top;
+	font-size:30px;
+	color:#f00;
+	letter-spacing:-3px;
+	line-height:25%;	
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#contributors_text3 {
+	width:270px;
+	background:#ffffff;
+	display:inline-block;	
+	vertical-align:top;
+	font-size:12px;
+	color:#4d4d4d;
+	font-style:italic;
+	text-align:right;
+	font-weight:bold;
+	letter-spacing:-1px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#advertisement {
+	width:170px;
+	height:178px;
+	background:url(../images/advertise.jpg) no-repeat;
+	background-size:170px 178px;
+	display:inline-block;
+}
+#advertisement2 {
+	width:170px;
+	height:638px;
+	background:url(../images/vertical_banner.jpg) no-repeat;
+	background-size:170px 638px;
+	display:inline-block;
+}
+#advertisement3 {
+	width:728px;
+	height:90px;
+	background:url(../images/sprint.jpg) no-repeat;
+	background-size:728px 90px;
+	display:inline-block;
+	margin-left:470px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.story_box_text1 { display:block;width:130px;background:#e30505; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; padding-right:10px; padding-left:10px; }
+#story_box_text2 { display:block;background:#FFFFFF; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; font-size:13px; color:#000000;  padding-right:10px; text-wrap:supress; text-align:center; line-height: 90%; }
+.story_box_image { display:block;background:#FFFFFF; } 
+
+#footer {
+	background:#555454;
+	width:100%;
+	height:200px;	
+}
+
+#footer_column1 {
+	width:250px;
+	height:50px;
+	display:inline-block;
+	padding-top:15px;
+	vertical-align:top;
+	float:left;
+	margin-left:500px;
+	font-size:22px;
+	color:#c6c2c2;
+	font-family:"Bebas Neue";
+}
+#footer_column2 {
+	width:250px;
+	height:50px;
+	display:inline-block;
+	padding-top:15px;
+	vertical-align:top;
+	float:left;
+	font-size:22px;
+	color:#c6c2c2;
+	font-family:"Bebas Neue";
+}
+#footer_column3 {
+	width:250px;
+	height:50px;
+	display:inline-block;
+	padding-top:15px;
+	vertical-align:top;
+	float:left;
+	font-size:22px;
+	color:#c6c2c2;
+	font-family:"Bebas Neue";
+}
+#footer_href {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#8a8888;
+	text-decoration:none;
+}
+#footer_separator {
+	background:#666;
+	border-top:thin dotted;
+	width:180px;
+	height:1px;
+	display:inline-block;
+}
+#copyright {
+	background:#555454;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#8a8888;	
+	text-align:center;
+}
+
